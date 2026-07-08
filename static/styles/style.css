@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Epilogue", sans-serif;
+}
+
+.hero {
+position: relative;
+display: flex;
+flex-direction: column;
+width: 1376px;
+height: 608px;
+top: 60px;
+left: 50%;
+transform: translateX(-50%);
+background-image: url("../images/Education support.gif");
+background-size: cover;
+background-position: center;
+border-radius: 16px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    color: #fff;
+    margin: 20px 20px 0px 20px;
+    gap: 40px;
+}
+.left a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    color: #fff;
+    margin: 20px 20px 0px 20px;
+    gap: 20px;
+    margin-left: auto;
+}
+.right a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.phone-selector {
+    position: relative;
+    display: inline-block;
+    user-select: none;
+}
+.phone-selector[open] .arrow-icon {
+    transform: rotate(180deg);
+}
+
+.phone-button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px 24px;
+    border-radius: 100px;
+}
+
+.phone-options {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: calc(100% + 5px);
+    right: 28%;
+}
+
+.language-selector {
+    position: relative;
+    display: inline-block;
+    user-select: none;
+}
+.language-selector[open] .arrow-icon {
+    transform: rotate(180deg);
+}
+
+.language-button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px 10px;
+    border-radius: 100px;
+    background-color:#22326E;
+}
+
+.language-options {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: calc(100% + 5px);
+    right: 22%;
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+
+    width: 120px;
+    height: 120px;
+    background-color: #fff;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-img {
+    width: 120px;
+    height: auto;
+    display: block;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: flex-end;
+    padding-left: 1.5%;
+    padding-bottom: 2.5%;
+}
+
+.future {
+    display: flex;
+    flex-direction: column;
+}
+
+.future-beginning {
+    font-size: 32px;
+    color: #fff;
+}
+.future-end {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.future-end-text {
+    font-size: 32px;
+    color: #fff;
+    
+}
+
+.application-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    background-color: #F0B323;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 25px;
+    margin-top: 2%;
+}
+.application-button a {
+    text-decoration: none;
+    color: #fff;
+}
+.application-button:hover {
+    background-color: #e0a313;
+}
+
+.card {
+    width: 335px;
+    height: 118px;
+    padding: 12px;
+    background-color: #22326E66;
+    color: #fff;
+
+    border-radius: 12px;
+    backdrop-filter: blur(12px);
+
+    position: absolute;
+    bottom: 5%;
+    right: 2.5%;
+}
+
+.card h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.card p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+}
+
+
