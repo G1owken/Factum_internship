@@ -208,7 +208,7 @@ margin: calc(32 * var(--width-multiplier));
 
 .logo-back {
     position: absolute;
-    background-image: url("../images/back-logo.png");
+    background-image: url("../svg's/logo-back.svg");
     background-size: contain;
     width: calc(116.5 * var(--width-multiplier));
     height: calc(93 * var(--width-multiplier));
