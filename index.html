@@ -6,67 +6,77 @@
     <title>Главная страница v1</title>
     <script src="https://kit.fontawesome.com/90ac431194.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="static/styles/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 </head>
 <body>
-    <div class = "hero">
-        <div class = "header">
-            <div class = "left">
-                <a href="#">О школе</a>
-                <a href="#">Поступление</a>
-                <a href="#">Школьная жизнь</a>
-                <a href="#">Образование</a>
-            </div>
-            <div class = "logo">
-                <img src = "static/images/Prometheus School_Round Emblem PS quote.png" class = "logo-img" alt = "Prometheus School Logo">
-            </div>
-            <div class = "right">
-                <details class = "phone-selector">
-                    <summary class = "phone-button">
-                        <i class="fa-solid fa-phone"></i>
-                        +7 708 707 77 75
-                        <i class="fa-solid fa-chevron-down arrow-icon"></i>
-                    </summary>
-                    <div class = "phone-options">
-                        <a href = "tel:+77087077775">Позвонить</a>
-                        <a href = "https://wa.me/77087077775" target = "_blank">WhatsApp</a>
+    <div class = "page_1">
+        <div class = "hero">
+            <div class = "logo-back"></div>
+            <div class = "header">
+                <div class = "left">
+                    <a href="#">О школе</a>
+                    <a href="#">Поступление</a>
+                    <a href="#">Школьная жизнь</a>
+                    <a href="#">Образование</a>
+                </div>
+                <div class = "logo"></div>
+                <div class = "right">
+                    <div class = "phone-selector">
+                        <div class = "phone-button">
+                            <p>+7 708 707 77 75 <i class="fa-solid fa-caret-down phone-arrow"></i></p>
+                        </div>
+                        <div class = "phone-options">
+                            <div class = "nums-container">
+                                <p>fff</p>
+                            </div>
+                        </div>
                     </div>
-                </details>
-                <details class = "language-selector">
-                    <summary class = "language-button">
-                        <i class="fa-solid fa-globe"></i>
-                        Русский
-                        <i class="fa-solid fa-chevron-down arrow-icon"></i>
-                    </summary>
-                    <div class = "language-options">
-                        <a href = "?lang=en">English</a>
-                        <a href = "?lang=kk">Қазақша</a>
-                    </div>
-                </details>
+                </div>
             </div>
-        </div>
-        <div class = "content">
             <div class = "future">
-                <div class = "future-beginning">
-                    <h1>Будущее начинается</h1>
+                <h1>Будущее начинается здесь и сейчас</h1>
+                <div class = "application-button">
+                    <a href = "#">Оставить заявку</a>
                 </div>
-                <div class = "future-end">
-                    <div class = "future-end-text">
-                        <h1>здесь и сейчас</h1>
+            </div>
+            </div>
+            <div class = "swiper-my-slider">
+                <div class = "swiper-wrapper">
+                    <div class = "swiper-slide">
+                        <h2>Раскрой потенциал</h2>
+                        <p>Образование будущего с акцентом на таланты, навыки и ценности.</p>
                     </div>
-                    <div class = "application-button">
-                        <a href = "#">Подать заявку</a>
+                    <div class = "swiper-slide">
+                        <h2>Школа будущего</h2>
+                        <p>Комфортные лаборатории, инновационные программы.</p>
+                    </div>
+                    <div class = "swiper-slide">
+                        <h2>Учись с лидерами</h2>
+                        <p>STEM, языки, лидерство и подготовка к вузам под одной крышей.</p>
                     </div>
                 </div>
             </div>
-            <div class = "card">
-                <h2>Раскрой потенциал</h2>
-                <p>Образование будущего с акцентом на <br> таланты, навыки и ценности.</p>
-            </div>
-
         </div>
     </div>
     <div class = "page_2">
-
+        <div class = "digit-school">
+            <p><span>Современная частная школа</span> в Алматы  <br>с международными методиками, академической глубиной и <span>индивидуальным подходом</span> </p>
+        </div>
+        <div class = "wave">
+            <img src = "static/images/wave_1.png" class = "wave-img1" alt = "Wave Image1">
+            <img src = "static/images/wave_2.png" class = "wave-img2" alt = "Wave Image2">
+        </div>
+        <div class = "comf-school">
+            <p>Школа с комфортной инфраструктурой, современными лабораториями, проектными классами и англоязычными программами, где дети учатся в атмосфере вдохновения, раскрывают таланты и обретают уверенность</p>
+        </div>
+        <div class = "double-button">
+            <div class = "detailed">
+                <a href = "#">Подробнее</a>
+            </div>
+            <div class = "degree45-arrow">
+                <i class="fa-solid fa-arrow-down arrow-rotated"></i>
+            </div>
+        </div>
     </div>
     <div class = "files">
 
@@ -83,5 +93,7 @@
     <div class = "footer">
         
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src = "static/scripts/swiper.js"></script>
 </body>
 </html>
