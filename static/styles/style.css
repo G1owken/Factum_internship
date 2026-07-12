@@ -403,7 +403,7 @@ margin: calc(32 * var(--width-multiplier));
     top: calc(104 * var(--width-multiplier));
     left: calc(634 * var(--width-multiplier));
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
 }
 
@@ -433,7 +433,7 @@ margin: calc(32 * var(--width-multiplier));
     content: "";
     position: absolute;
     background-image: url("../images/Vector-2.png");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     width: calc(51 * var(--width-multiplier));
