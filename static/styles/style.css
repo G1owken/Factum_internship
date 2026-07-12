@@ -356,7 +356,7 @@ margin: calc(32 * var(--width-multiplier));
     opacity: 1;
     border-top-left-radius: calc(2 * var(--width-multiplier));
     border-top-right-radius: calc(1 * var(--width-multiplier));
-    border-bottom-right-radius: calc(200 * var(--width-multiplier));
+    border-bottom-right-radius: calc(50 * var(--width-multiplier));
     background-color: #fff;
 }
 .up2 {
@@ -403,8 +403,44 @@ margin: calc(32 * var(--width-multiplier));
     top: calc(104 * var(--width-multiplier));
     left: calc(634 * var(--width-multiplier));
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: contain;
     background-position: center;
+}
+
+.down1 {
+    position: absolute;
+    width: calc(1440 * var(--width-multiplier));
+    height: calc(24 * var(--width-multiplier));
+    top: calc(586 * var(--width-multiplier));
+    opacity: 1;
+    border-bottom-right-radius: calc(2 * var(--width-multiplier));
+    border-bottom-left-radius: calc(1 * var(--width-multiplier));
+    border-top-left-radius: calc(50 * var(--width-multiplier));
+    background-color: #fff;
+}
+.down2 {
+    position: absolute;
+    width: calc(534 * var(--width-multiplier));
+    height: calc(178 * var(--width-multiplier));
+    top: calc(412 * var(--width-multiplier));
+    left: calc(906 * var(--width-multiplier));
+    border-top-left-radius: calc(50 * var(--width-multiplier));
+    border-top-right-radius: calc(50 * var(--width-multiplier));
+    opacity: 1;
+    background-color: #fff;
+}
+.down2::after {
+    content: "";
+    position: absolute;
+    background-image: url("../images/Vector-2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: calc(51 * var(--width-multiplier));
+    height: calc(49 * var(--width-multiplier));
+    opacity: 1;
+    top: calc(125 * var(--width-multiplier));
+    right: calc(534 * var(--width-multiplier));
 }
 
 .digit-school {
