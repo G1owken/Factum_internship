@@ -152,7 +152,7 @@ margin: calc(32 * var(--width-multiplier));
 
 .phone-button {
     position: absolute;
-    width: calc(122 * var(--width-multiplier));
+    width: max-content;
     height: calc(22 * var(--width-multiplier));
     opacity: 1;
     left: calc(16 * var(--width-multiplier));
