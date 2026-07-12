@@ -89,10 +89,6 @@ margin: calc(32 * var(--width-multiplier));
     color:#fff;
 
 }
-.right a {
-    text-decoration: none;
-    color: #fff;
-}
 
 .future {
     position: absolute;
@@ -150,6 +146,8 @@ margin: calc(32 * var(--width-multiplier));
     gap: calc(8 * var(--width-multiplier));
     padding-right: calc(16 * var(--width-multiplier));
     padding-left: calc(16 * var(--width-multiplier));
+    display: flex;
+    flex-direction: row;
 }
 
 .phone-button {
@@ -157,14 +155,14 @@ margin: calc(32 * var(--width-multiplier));
     width: calc(122 * var(--width-multiplier));
     height: calc(22 * var(--width-multiplier));
     opacity: 1;
+    left: calc(16 * var(--width-multiplier));
+    top: calc(8 * var(--width-multiplier));
     gap: calc(10 * var(--width-multiplier));
     display: flex;
     flex-direction: row;
     z-index: 2;
 }
 .phone-button p {
-    width: calc(122 * var(--width-multiplier));
-    height: calc(22 * var(--width-multiplier));
     opacity: 1;
     font-weight: 500;
     font-size: (16 * var(--width-multiplier));
@@ -174,9 +172,28 @@ margin: calc(32 * var(--width-multiplier));
     color: #fff;
 }
 
+.arrow-container {
+    position: absolute;
+    left: calc(146 * var(--width-multiplier));
+    width: 24;
+    height: 24;
+    opacity: 1;
+    top: calc(7 * var(--width-multiplier));
+
+}
+
 .phone-arrow {
     position: absolute;
-    left: calc(128 * var(--width-multiplier));
+    background-image: url("../svg's/arrow-icon.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: calc(10 * var(--width-multiplier));
+    height: calc(5 * var(--width-multiplier));
+    left: calc(7 * var(--width-multiplier));
+    top: calc(10 * var(--width-multiplier));
+    opacity: 1;
+
 }
 
 .phone-options {
@@ -210,10 +227,13 @@ margin: calc(32 * var(--width-multiplier));
     position: absolute;
     background-image: url("../svg's/logo-back.svg");
     background-size: contain;
-    width: calc(116.5 * var(--width-multiplier));
+    background-repeat: no-repeat;
+    background-position: center;
+    width: calc(116 * var(--width-multiplier));
     height: calc(93 * var(--width-multiplier));
-    top: calc(-34 * var(--width-multiplier));
-    left: calc(629 * var(--width-multiplier));
+    top: calc(-12 * var(--width-multiplier));
+    left: 50%;
+    transform: translateX(-50%);
     opacity: 1;
 }
 
@@ -221,10 +241,13 @@ margin: calc(32 * var(--width-multiplier));
     position: absolute;
     width: calc(74 * var(--width-multiplier));
     height: calc(72 * var(--width-multiplier));
-    left: calc(627 * var(--width-multiplier));
+    left: 50%;
+    transform: translateX(-50%);
     opacity: 1;
     background-image: url("../images/Prometheus_logo.png");
     background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 
