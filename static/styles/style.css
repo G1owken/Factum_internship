@@ -175,8 +175,8 @@ margin: calc(32 * var(--width-multiplier));
 .arrow-container {
     position: absolute;
     left: calc(146 * var(--width-multiplier));
-    width: 24;
-    height: 24;
+    width: calc(24 * var(--width-multiplier));
+    height: calc(24 * var(--width-multiplier));
     opacity: 1;
     top: calc(7 * var(--width-multiplier));
 
