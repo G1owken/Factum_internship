@@ -378,10 +378,9 @@ margin: calc(32 * var(--width-multiplier));
     height: calc(49 * var(--width-multiplier));
     opacity: 1;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100% 100%;
     background-position: center;
     left: calc(817 * var(--width-multiplier));
-    top: calc(-1 * var(--width-multiplier));
 }
 .up3 {
     position: absolute;
@@ -404,7 +403,7 @@ margin: calc(32 * var(--width-multiplier));
     top: calc(104 * var(--width-multiplier));
     left: calc(634 * var(--width-multiplier));
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100% 100%;
     background-position: center;
 }
 
