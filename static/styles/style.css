@@ -594,7 +594,7 @@ margin: calc(32 * var(--width-multiplier));
     height: calc(49 * var(--width-multiplier));
     opacity: 1;
     top: calc(104 * var(--width-multiplier));
-    left: calc(635 * var(--width-multiplier));
+    left: calc(634 * var(--width-multiplier));
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -633,7 +633,7 @@ margin: calc(32 * var(--width-multiplier));
     height: calc(49 * var(--width-multiplier));
     opacity: 1;
     top: calc(125 * var(--width-multiplier));
-    right: calc(534 * var(--width-multiplier));
+    right: calc(533 * var(--width-multiplier));
 }
 
 .digit-school {
@@ -730,21 +730,19 @@ margin: calc(32 * var(--width-multiplier));
     height: calc(54 * var(--width-multiplier));
     opacity: 1;
     border-radius: calc(225 * var(--width-multiplier));
-    z-index: 2;
     background-color: #F0B323;
     left: calc(139 * var(--width-multiplier));
-    display: flex;
+    align-content: center;
 }
 
-.degree45-arrow .arrow-rotated {
+.arrow-icon {
     position: absolute;
-    width: calc(15.75 * var(--width-multiplier));
-    height: calc(15.75 * var(--width-multiplier));
+    left: 20px;
+    top: 20px;
+    width: calc(16 * var(--width-multiplier));
+    height: calc(16 * var(--width-multiplier));
     opacity: 1;
-    top: calc(19.13 * var(--width-multiplier));
-    left: calc(19.13 * var(--width-multiplier));
-    border-width: calc(3.15 * var(--width-multiplier));
-    transform: rotate(-135deg);
-    color: #fff;
+    border-width: calc(3 * var(--width-multiplier));
+    object-fit: 100% 100%;
 }
 
